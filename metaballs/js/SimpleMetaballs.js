@@ -14,7 +14,7 @@ let HALF_W;
 let HALF_H;
 
 let balls = [];
-let Band = 128; // numBands;
+let Band = 255; // numBands;
 var numBalls = 6;
 
 function setup() {
