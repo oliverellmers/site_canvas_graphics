@@ -15,7 +15,7 @@ let HALF_H;
 
 let balls = [];
 let Band = 255; // numBands;
-var numBalls = 10;
+var numBalls = 6;
 
 function setup() {
     var multiCanvas = createCanvas(windowWidth, windowHeight, P2D);
