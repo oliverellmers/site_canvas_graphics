@@ -5,7 +5,7 @@
 */
 
 let numBands = 3,
-    scaleSz = 4,
+    scaleSz = 8,
     gfx,
     scaledGfx;
 let m;
