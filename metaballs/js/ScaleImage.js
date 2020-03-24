@@ -8,12 +8,12 @@ function scaleImage(imgIn, imgOut){
    let v = floor( y * imgIn.height );
 
     // prevent sampling above
-	u %= imgIn.width;
+  	u %= imgIn.width;
     v %= imgIn.height;
-    
-    // prevent sampling below
-	u = u < 0 ? imgIn.width + u : u;
-	v = v < 0 ? imgIn.height + v : v;
+      
+      // prevent sampling below
+  	u = u < 0 ? imgIn.width + u : u;
+  	v = v < 0 ? imgIn.height + v : v;
 
     let textureIdx = (4 * v * imgIn.width) + (4 * u);
    
